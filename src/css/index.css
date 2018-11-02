@@ -1,0 +1,41 @@
+body{
+	margin:0;
+	padding:0;
+}
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.search-box {
+    margin-bottom: 20px;
+}
+.search-box>.el-input {
+    float: left;
+    width: 30%;
+}
+.search-box>.el-select {
+  	float: left;
+  	margin-right: 20px;
+}
+.search-box .btn-box {
+	float: right;
+	margin-right: 40px;
+}
+
+.surveyPreview h4 {
+    margin-top: 0;
+    line-height: 40px;
+    font-size: 22px;
+  }
+  .surveyPreview h4 i {
+    margin-right: 10px;
+  }
+  .surveyPreview h4 span {
+    padding-right: 50px;
+  }
+  .surveyPreview .surveyTitle {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
